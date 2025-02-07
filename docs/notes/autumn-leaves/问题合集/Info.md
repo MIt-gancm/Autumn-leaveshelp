@@ -1,7 +1,7 @@
 ---
 title: Info
 createTime: 2025/02/07 13:07:19
-permalink: /article/l5cmbbzf/
+permalink: /article/
 icon: /info.svg
 ---
 # 项目名称：Autumn-leaves
@@ -13,11 +13,17 @@ Linux的MC服务器安装
   description="是看板娘我们有救了(っ´Ι`)っ"
   href="/"
 />
+
 ## 使用方法
+
 ### 安装
+
 [安装文档](./Installation.md)
+
 @[bilibili](BV1ifzEYXEx7)
+
 ### 提交问题
+
 [查看已知问题](./Issues.md)
 
 ### 提交问题

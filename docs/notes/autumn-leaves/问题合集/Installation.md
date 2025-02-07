@@ -1,7 +1,7 @@
 ---
 title: autumn-leaves安装
 createTime: 2025/02/07 10:13:19
-permalink: /article/
+permalink: /article/l5cmbbzf/
 icon: /dow.svg
 ---
 
