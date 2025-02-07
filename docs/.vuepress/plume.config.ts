@@ -6,7 +6,7 @@ import { zhNotes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: './icon.png',
+  logo: '/icon.png',
 
   appearance: true,  // 配置 深色模式
 
