@@ -34,11 +34,6 @@ Linux的MC服务器安装
     - config 配置文件
     - function 部分功能
     - local 主要功能文件夹
-    - MCserver Linux mc服务器文件夹后续会更改位置
-      - 服务器核心
-        - 服务器版本
-          - 服务器核心
-          - start.sh 启动脚本 MC服务器无法启动发这个截图
     - gancm.sh 脚本入口
     - README.md 说明文档
     - log.log 日志调用了脚本什么功能都在这
@@ -46,6 +41,13 @@ Linux的MC服务器安装
     - gancm 
       - proot 
         - 你的容器
+          - root
+            - .gancm 回到开头
+      - MCserver Linux mc服务器文件夹后续会更改位置
+        - 服务器核心
+          - 服务器版本
+            - 服务器核心
+            - start.sh 启动脚本 MC服务器无法启动发这个截图
 - …
 :::
 
