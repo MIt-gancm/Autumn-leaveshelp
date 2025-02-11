@@ -15,12 +15,19 @@ Linux的MC服务器安装
 />
 
 ## 使用方法
-
 ### 安装
 
 [安装文档](./Installation.md)
 
 @[bilibili](BV1ifzEYXEx7)
+### 更新
+- 打开脚本自动检测更新
+- 手动更新群里“新版脚本 arm64 amd64“下载最新文件解压放到~/ 并重命名.gancm
+### 感谢
+| 感谢名单       | 贡献功能      | github/gitee/文档     |
+| ------------- |:-------------:| -----:|
+| MCSManager      | MCSManager Linux 支持 | [官方网站](http://mcsmanager.com/)  [使用文档](https://docs.mcsmanager.com/#/zh-cn/)  [QQ 群](https://jq.qq.com/?_wv=1027&k=Pgl9ScGw) [TG 群](https://t.me/MCSManager_dev) |
+| 墨泽      | MCSManager Linux proot 支持 | [Gitee](https://gitee.com/moze_sz) |
 
 ### 提交问题
 
