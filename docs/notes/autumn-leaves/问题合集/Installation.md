@@ -4,9 +4,9 @@ createTime: 2025/02/07 10:13:19
 permalink: /article/l5cmbbzf/
 icon: /dow.svg
 ---
-
+---
 # 安装 Autumn-leaves 脚本
-
+---
 首先，确保你的系统满足以下其一要求：
 - Termux
 - Linux（Debian 系列推荐 Ubuntu 20, 22）

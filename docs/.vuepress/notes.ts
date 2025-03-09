@@ -23,8 +23,9 @@ const zhDemoNote = defineNoteConfig({
       collapsed: false,
       items: [
       // 可以混用 string 和 SidebarItem
-        { text: '安卓', link: "安卓/咕咕咕"},
-        { text: 'Linux', link: "Linux/咕咕咕"},
+        { text: '安卓', link: "安卓/安卓功能"},
+        { text: 'Linux', link: "Linux/linux功能"},
+        { text: '手动开服教程', link: "手动开服/通用"},
       ],
     },
   ]

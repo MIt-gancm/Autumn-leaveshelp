@@ -4,7 +4,9 @@ createTime: 2025/02/07 13:07:19
 permalink: /article/
 icon: /info.svg
 ---
+---
 # 项目名称：Autumn-leaves
+---
 termux的proot容器管理
 Linux的MC服务器安装
 <ImageCard
@@ -28,6 +30,7 @@ Linux的MC服务器安装
 | ------------- |:-------------:| -----:|
 | MCSManager      | MCSManager Linux 支持 | [官方网站](http://mcsmanager.com/)  [使用文档](https://docs.mcsmanager.com/#/zh-cn/)  [QQ 群](https://jq.qq.com/?_wv=1027&k=Pgl9ScGw) [TG 群](https://t.me/MCSManager_dev) |
 | 墨泽      | MCSManager Linux proot 支持 | [Gitee](https://gitee.com/moze_sz) |
+| NapNeko     | NapCatQQ支持 | [Github](https://github.com/NapNeko/NapCatQQ) [使用文档cfpage](https://napneko.pages.dev/) [使用文档gpage](https://napneko.github.io/)[api文档](https://napcat.apifox.cn/)|
 
 ### 提交问题
 

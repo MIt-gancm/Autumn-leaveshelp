@@ -16,7 +16,7 @@ pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://githu
 # 使用 Gitee 仓库
 pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://gitee.com/MIt-gancm/Autumn-leaves ~/.gancm
 ```
-### Linux 环境
+### Linux(Proot) 环境
 ```shell
 # 使用 GitHub 仓库
 rm -rf ~/.gancm
@@ -74,6 +74,5 @@ pkg remove wget -y & apt install wget -y
   href="/"
 />
 
-
-
+---
 
