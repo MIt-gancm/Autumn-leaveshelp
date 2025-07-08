@@ -7,15 +7,60 @@ icon: /info.svg
 ---
 # 项目名称：Autumn-leaves
 ---
-termux的proot容器管理
-Linux的MC服务器安装
+Autumn-leaves 是一款专为 Linux 和 Android 环境设计的综合系统管理工具。它提供了一个基于终端的统一界面来管理各种服务，包括 Android 上的 PRoot 容器、Minecraft 服务器和 Linux 上的 QQ 机器人。
 <ImageCard
   image="/icon.png"
   title="看板娘"
   description="是看板娘我们有救了(っ´Ι`)っ"
   href="/"
 />
+系统用途和范围
+该系统用作一体化管理实用程序：
 
+跨平台自动安装和管理服务
+通过 PRoot 在 Android 上提供容器化功能
+促进 Linux 上的 Minecraft 服务器部署和管理
+支持 QQ 机器人设置和作
+具有自我更新机制，以保持最新状态
+跨环境提供一致的菜单驱动界面
+
+## 关键组件
+### 主脚本 （gancm.sh）
+脚本是 Autumn-leaves 的核心组件，负责：gancm.sh
+
+提供颜色编码输出以获得更好的用户体验
+检测作系统类型 （Android/Linux）
+自动安装所需的依赖项
+对目录和 Git 配置执行有效性检查
+路由到相应的菜单系统
+处理命令行参数以直接访问函数
+此脚本包含实用程序函数，包括：
+
+- self_install：使用相应的包管理器安装所需的包
+- validity_git：设置默认 Git 源存储库
+- validity_dir：创建必要的目录
+- Modify_the_variable：更新配置变量
+- apt_up：定期更新和升级 APT 软件包
+#配置系统
+##配置系统包括：
+
+- config.sh：包含用户首选项和系统变量
+- version：存储版本信息，包括：
+1. 当前版本号
+2. Git 存储库参考
+3. 版本描述
+4. 发布日期
+5. 系统使用这些文件来跟踪状态并确定何时需要更新。
+## 命令行界面
+### 特定于 Android 的命令：
+- gancm.sh -s Android install proot：安装 PRoot 工具
+- gancm.sh -s Android start proot：启动 PRoot 容器
+### 特定于 Linux 的命令：
+- gancm.sh -s Linux download_JAVA：安装 Java
+- gancm.sh -s Linux install_MC_SERVER： 安装 Minecraft 服务器
+- gancm.sh -s Linux start_MC_SERVER： 启动 Minecraft 服务器
+- gancm.sh -s Linux installMCSManager：安装 Minecraft 服务器 Web 面板
+- gancm.sh -s Linux installNapCatQQ： 安装 NapCatQQ 机器人
 ## 使用方法
 ### 安装
 

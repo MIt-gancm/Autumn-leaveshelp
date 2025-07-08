@@ -48,7 +48,7 @@ apt update -y && apt upgrade -y && apt install git -y && git clone https://gitee
 安装完成后，你可以通过以下命令验证安装：
 
 ```bash
-bash ~/.gancm/gancm
+bash ~/.gancm/gancm.sh
 ```
 
 如果出现对话框，说明安装完成。
