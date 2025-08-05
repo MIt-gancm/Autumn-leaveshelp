@@ -10,6 +10,9 @@ icon: /issues.svg
 
 ### Termux 环境
 ```shell
+# 使用 GitHub 加速仓库
+rm -rf ~/.gancm
+pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://dl.gancmcs.top/https://github.com/MIt-gancm/Autumn-leaves ~/.gancm
 # 使用 GitHub 仓库
 rm -rf ~/.gancm
 pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://github.com/MIt-gancm/Autumn-leaves ~/.gancm
@@ -18,7 +21,9 @@ pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://gitee
 ```
 ### Linux(Proot) 环境
 ```shell
-# 使用 GitHub 仓库
+# 使用 GitHub 加速仓库
+rm -rf ~/.gancm
+apt update -y && apt upgrade -y  && apt install git -y && git clone https://dl.gancmcs.top/https://github.com/MIt-gancm/Autumn-leaves ~/.gancm
 rm -rf ~/.gancm
 apt update -y && apt upgrade -y  && apt install git -y && git clone https://github.com/MIt-gancm/Autumn-leaves ~/.gancm
 # 使用 Gitee 仓库

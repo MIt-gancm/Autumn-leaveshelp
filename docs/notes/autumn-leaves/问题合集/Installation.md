@@ -1,19 +1,25 @@
 ---
-title: autumn-leaves安装
+title: Autumn-leaves 安装
 createTime: 2025/02/07 10:13:19
 permalink: /article/l5cmbbzf/
 icon: /dow.svg
 ---
----
+
 # 安装 Autumn-leaves 脚本
----
-首先，确保你的系统满足以下其一要求：
+
+首先，确保你的系统满足以下要求之一：
 - Termux
 - Linux（Debian 系列推荐 Ubuntu 20, 22）
 
 ## 在 Termux 中安装
 
 打开命令行终端，运行以下命令：
+
+### Github 加速源
+
+```bash
+pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://dl.gancmcs.top/https://github.com/MIt-gancm/Autumn-leaves ~/.gancm
+```
 
 ### Github 源
 
@@ -30,6 +36,12 @@ pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://gitee
 ## 在 Linux 中安装
 
 打开命令行终端，运行以下命令：
+
+### Github 加速源
+
+```bash
+apt update -y && apt upgrade -y && apt install git -y && git clone https://dl.gancmcs.top/https://github.com/MIt-gancm/Autumn-leaves ~/.gancm
+```
 
 ### Github 源
 

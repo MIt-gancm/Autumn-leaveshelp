@@ -4,8 +4,17 @@ createTime: 2025/02/07 13:07:19
 permalink: /article/
 icon: /info.svg
 ---
----
-# 项目名称：Autumn-leaves
+## 广告
+### MC服务器
+
+1.20 以上都能正常玩
+java mc.gancmcs.top
+
+PE mcpe.gancmcs.top:46265
+
+离线账户要注册 正版(java 和 登录xbox的基岩版) 免注册
+生存 空岛 ~~小游戏一应俱全(其实没几个)~~
+## 项目名称：Autumn-leaves
 ---
 Autumn-leaves 是一款专为 Linux 和 Android 环境设计的综合系统管理工具。它提供了一个基于终端的统一界面来管理各种服务，包括 Android 上的 PRoot 容器、Minecraft 服务器和 Linux 上的 QQ 机器人。
 <ImageCard
@@ -85,7 +94,7 @@ Autumn-leaves 是一款专为 Linux 和 Android 环境设计的综合系统管�
 [在GitHub上反馈](https://github.com/MIt-gancm/Autumn-leaves/)
 [QQ群一（比较死）](https://qm.qq.com/q/FpLOtSUcCs)
 [QQ群二（比较活跃）](https://qm.qq.com/q/5cL7WW8SnS)
-
+[QQ群三（比较活跃）](https://qm.qq.com/q/LvdTDYXdu2)
 ## 目录完整
 
 ::: file-tree

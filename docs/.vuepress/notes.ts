@@ -26,6 +26,7 @@ const zhDemoNote = defineNoteConfig({
         { text: '安卓', link: "安卓/安卓功能"},
         { text: 'Linux', link: "Linux/linux功能"},
         { text: '手动开服教程', link: "手动开服/通用"},
+        { text: '服务器配置文件', link: "服务器配置文件/通用"},
       ],
     },
   ]
